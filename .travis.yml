@@ -15,7 +15,7 @@ addons:
 services:
   - docker
 before_install:
-  - echo 7799c906-979d-416c-9394-ed25385babda | docker login -u frenchtoucan --password-stdin 2>/dev/null
+  - echo xxxx | docker login -u frenchtoucan --password-stdin 2>/dev/null
   - docker pull fr3akyphantom/droid-builder:latest
 before_script:
   - cd $HOME && mkdir twrp
